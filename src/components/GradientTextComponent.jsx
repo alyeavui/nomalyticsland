@@ -1,0 +1,52 @@
+import React from 'react';
+
+const GradientTextComponent = () => {
+  return (
+    <div className=" mt-32 flex flex-col items-center justify-center  bg-[#14305B] p-4 w-screen ">
+      
+      <div className="w-full flex justify-start mb-6 pt-4 pl-4">
+        <img
+          src="/logoo.png" 
+          className="ml-2"
+          style={{
+            mixBlendMode: 'lighten', // режим наложения
+          }}
+        />
+      </div>
+
+      <h1
+        className="text-3xl font-bold text-center mb-6 pt-20"
+        style={{
+          background: 'linear-gradient(90deg, #FEFCFD 0%, #447FCF 100%)',
+          WebkitBackgroundClip: 'text',
+          WebkitTextFillColor: 'transparent',
+        }}
+      >
+        <span className="block">Simple and</span>
+        <span className="block">Convenient</span>
+        <span className="block">Analytics Tool</span>
+      </h1>
+
+      <p
+        className="text-center text-[#AAB3C1] text-sm mb-6 pt-14"
+        style={{
+          background: 'linear-gradient(90deg, #FEFCFD 0%, #447FCF 100%)',
+          WebkitBackgroundClip: 'text',
+          WebkitTextFillColor: 'transparent',
+        }}
+      >
+        <span className="block">With Nomalytics, easily</span>
+        <span className="block">manage finances,</span>
+        <span className="block">warehouses, employees, and </span>
+        <span className="block">much more...</span>
+      </p>
+        <div className='pt-10 pb-8'> 
+            <button className="bg-[#C7E5FF] text-black py-2 px-6 rounded-full  hover:bg-[#3a6cb2] transition ">
+                 Contact Us Now
+            </button>
+        </div>
+    </div>
+  );
+};
+
+export default GradientTextComponent;
