@@ -1,23 +1,33 @@
 import React from 'react';
+import logo from '/logo.png';
+import screenforbg from '/screenforbg.png';
 
 const MainContent = () => {
-  return (
-    <div className="p-8 flex-wrap items-center justify-center bg-white   ">
-      <div className="">
-        <div className="text-center w-[100%] ">
-          <img src="/logo.png"  className="mb-4 w-[50%]" />
-          <img src="/3blocks.png"  className="  " />
-          <p className="text-lg text-gray-700 w-2/3">Your Gateway to Superior Business Insights</p>
-          <button className="mt-8 bg-blue-900 text-white px-6 py-3 rounded-full shadow-lg hover:bg-blue-900 transition duration-300">Get Started</button>
+    return (
+        <div 
+            className='relative bg-white bg-no-repeat bg-right'
+            style={{ 
+                backgroundImage: `url(${screenforbg})`,
+                backgroundPosition: 'right center',
+                backgroundSize: 'contain', // Default size
+                paddingRight: '20px', // Default padding
+            }}
+        >
+            <div className='container py-24'>
+                <div className='ml-8 mb-24'>
+                    <img src={logo} className='w-[170px] h-[30px]' alt='Logo' />
+                    <p className='pt-4 text-sm text-gray-400 leading-5'>
+                        Your Gateway<br />to Superior<br />Business<br />Insights
+                    </p>
+                </div>
+            </div>
+            <div>
+            <button className='ml-8 mt-48 mb-24 w-[120px] h-[30px] bg-sky text-white text-xs font-bold py-2 px-4 rounded'>
+            Get Started
+            </button>
+            </div>
         </div>
-        <div className="relative w-full">
-          
-        </div>
-      </div>
-    </div>
-  );
+    );
 }
 
 export default MainContent;
-
-

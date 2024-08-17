@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        sky: '#03346E',  
+      },
       fontFamily: {
         sans: ['Comfortaa', 'sans-serif'],
       },
@@ -34,4 +37,3 @@ export default {
     }
   ],
 }
-

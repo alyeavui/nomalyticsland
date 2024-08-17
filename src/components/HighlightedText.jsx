@@ -3,7 +3,7 @@ import React from 'react';
 const HighlightedText = () => {
   return (
     <div
-      className="relative w-[54vw] p-2  rounded-[38px] h-fit ml-8 mt-12"
+      className="relative w-[54vw] p-2  rounded-[38px] h-fit ml-8 mt-12 bg-white"
       style={{ boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)' }} 
     >
       <p className="text-black text-[14px] leading-snug font-bold ml-3">

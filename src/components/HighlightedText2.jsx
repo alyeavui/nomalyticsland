@@ -2,7 +2,7 @@ import React from 'react';
 
 const HighlightedText2 = () => {
   return (
-    <div className="relative flex justify-center items-center mt-20">
+    <div className="relative flex justify-center items-center mt-20 mb-32">
       
       <img
         src="/analphot.jpg" 

@@ -8,16 +8,18 @@ import GradientTextComponent from './components/GradientTextComponent';
 import PricingCard from './components/PricingCard';
 import PricingCard2 from './components/PricingCard2';
 import Clienttestimals from './components/Clienttestimals';
-
-
-
+import Why from './components/Why'
+import SecondPart from './components/SecondPart'
 
 function App() {
   return (
-    <div className="min-h-screen w-screen ">
+    <div className="min-h-screen w-screen bg-white">
+      <MainContent />
+      <SecondPart />
       <TextComponent />
       <HighlightedText />
       <HighlightedText2 />
+      <Why />
       <GradientTextComponent />
       <PricingCard/>
       <PricingCard2/>

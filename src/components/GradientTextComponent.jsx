@@ -2,7 +2,7 @@ import React from 'react';
 
 const GradientTextComponent = () => {
   return (
-    <div className=" mt-32 flex flex-col items-center justify-center  bg-[#14305B] p-4 w-screen ">
+    <div className="flex flex-col items-center justify-center  bg-[#14305B] p-4 w-screen ">
       
       <div className="w-full flex justify-start mb-6 pt-4 pl-4">
         <img
