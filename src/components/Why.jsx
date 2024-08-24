@@ -1,26 +1,26 @@
 import React from 'react';
-import statforwhy from '/statforwhy.png';
+import why from '/why.png';
 import finalbg from '/finalbg.png';
 
 const skillData = [
     {
         name: "In-Depth Reports",
-        icon: statforwhy,
+        icon: why,
         description: "Our detailed reports cover various aspects of your business, from market trends and competitor analysis to financial performance and operational efficiency.",
     },
     {
         name: "In-Depth Reports",
-        icon: statforwhy,
+        icon: why,
         description: "Our detailed reports cover various aspects of your business, from market trends and competitor analysis to financial performance and operational efficiency.",
     },
     {
         name: "In-Depth Reports",
-        icon: statforwhy,
+        icon: why,
         description: "Our detailed reports cover various aspects of your business, from market trends and competitor analysis to financial performance and operational efficiency.",
     },
     {
         name: "In-Depth Reports",
-        icon: statforwhy,
+        icon: why,
         description: "Our detailed reports cover various aspects of your business, from market trends and competitor analysis to financial performance and operational efficiency.",
     }
 ]
@@ -46,7 +46,7 @@ const Why = () => {
                     {skillData.map((skill) => (
                         <div
                             key={skill.name}
-                            className='card space-y-3 sm:space-y-6 p-4 sm:py-16 bg-sky text-white rounded-lg w-[80%] lg:w-full mx-auto'
+                            className='card space-y-3 sm:space-y-6 p-4 sm:py-16 bg-second text-sky rounded-lg w-[80%] lg:w-full mx-auto'
                         >
                             <div className='grid place-items-center'>
                                 <img src={skill.icon} alt={`${skill.name} icon`} className='w-16 h-16 object-contain' />

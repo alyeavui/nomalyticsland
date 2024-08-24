@@ -6,7 +6,6 @@ import bgforlarge from '/bgforlarge.png';
 const MainContent = () => {
     return (
         <div className='relative bg-white'>
-            {/* Logo and Text Section */}
             <div className='container pt-24 pb-4'>
                 <div className='ml-8'>
                     <img src={logo} className='w-[170px] h-[30px] lg:w-[300px] lg:h-[50px] xl:w-[450px] xl:h-[80px]' alt='Logo' />
@@ -15,8 +14,6 @@ const MainContent = () => {
                     </p>
                 </div>
             </div>
-
-            {/* Image Section */}
             <div className='relative z-10 mt-0 mb-12 flex justify-center'>
                 <img 
                     src={screenforbg} 
@@ -29,9 +26,7 @@ const MainContent = () => {
                     className='hidden md:block max-h-[80vh] object-contain' 
                 />
             </div>
-
-            {/* Button Section */}
-            <div className='ml-8 lg:mb-32 relative z-20'>
+            <div className='ml-8 sm:mb-32 relative z-20'>
                 <button className='w-[120px] h-[30px] lg:w-[300px] lg:h-[50px] lg:text-xl bg-sky text-white text-xs font-bold py-2 px-4 rounded'>
                     Get Started
                 </button>

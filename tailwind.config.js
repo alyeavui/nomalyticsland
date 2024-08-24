@@ -7,7 +7,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        sky: '#03346E',  
+        sky: '#03346E', 
+        first: '#A8CBFF',
+        second: '#CBDAEF',
+        gradOne: '#2864BD',
+        gradSec: '#8AB9FF',
+
       },
       fontFamily: {
         sans: ['Comfortaa', 'sans-serif'],
