@@ -1,6 +1,6 @@
 import React from 'react';
 import statforwhy from '/statforwhy.png';
-import bgbg2 from '/bgbg2.png';
+import finalbg from '/finalbg.png';
 
 const skillData = [
     {
@@ -29,7 +29,7 @@ const Why = () => {
     return (
         <div 
             style={{ 
-                backgroundImage: `url(${bgbg2})`,
+                backgroundImage: `url(${finalbg})`,
                 backgroundSize: 'cover', 
                 backgroundPosition: 'center', 
                 backgroundRepeat: 'no-repeat', 
@@ -38,7 +38,7 @@ const Why = () => {
         >
             <div className='container'>
                 <div className='pb-12'>
-                    <h1 className='text-3xl font-semibold text-center font-serif sm:text-4xl text-white'>
+                    <h1 className='text-3xl font-semibold text-center sm:text-4xl text-sky'>
                         Why Choose Nomalytica?
                     </h1>
                 </div>

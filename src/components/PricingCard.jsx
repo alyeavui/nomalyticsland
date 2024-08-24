@@ -3,7 +3,7 @@ import React from 'react';
 const PricingCard = () => {
   return (
     <div className="flex flex-col items-center justify-center  bg-[#14305B] p-4 w-screen">
-      <div className="bg-white rounded-[30px] p-6 w-[96vw] ">
+      <div className="bg-white rounded-[30px] p-6 w-[90%] ">
        
         <div className="flex justify-start mb-6">
           <span className="px-4 py-1 border border-[#14305B] rounded-full text-[#14305B] font-medium">
