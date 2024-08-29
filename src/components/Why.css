@@ -1,0 +1,60 @@
+.bg-responsive {
+    background-image: url("/finalbg.png"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  @media (min-width: 530px) and (max-width: 569px) {
+    .bg-responsive {
+      background-image: url("/bgmd.png"); 
+    }
+  }
+  
+  @media (min-width: 570px) and (max-width: 629px) {
+    .bg-responsive {
+      background-image: url("/bgmdTwo.png");
+    }
+  }
+  
+  @media (min-width: 630px) and (max-width: 669px) {
+    .bg-responsive {
+      background-image: url("/bgmdThree.png"); 
+    }
+  }
+
+  @media (min-width: 670px) and (max-width: 1020px) {
+    .bg-responsive {
+      background-image: url("/bgmdFour.png"); 
+    }
+  }
+
+  @media (min-width: 1021px) and (max-width: 1279px) {
+    .bg-responsive {
+      background-image: url("/bglg.png"); 
+    }
+  }
+
+  @media (min-width: 1021px) and (max-width: 1279px) {
+    .bg-responsive {
+      background-image: url("/bglg.png"); 
+    }
+  }
+
+  @media (min-width: 1280px) and (max-width: 1539px) {
+    .bg-responsive {
+      background-image: url("/lgbgTwo.png"); 
+    }
+  }
+
+  @media (min-width: 1540px) and (max-width: 1849px) {
+    .bg-responsive {
+      background-image: url("/bglgThree.png"); 
+    }
+  }
+
+  @media (min-width: 1850px) and (max-width: 2560px) {
+    .bg-responsive {
+      background-image: url("/bglgFour.png");
+    }
+  }

@@ -6,7 +6,6 @@ import HighlightedText from './components/HighlightedText';
 import HighlightedText2 from './components/HighlightedText2';
 import GradientTextComponent from './components/GradientTextComponent';
 import PricingCard from './components/PricingCard';
-import PricingCard2 from './components/PricingCard2';
 import Clienttestimals from './components/Clienttestimals';
 import Why from './components/Why';
 import SecondPart from './components/SecondPart';
@@ -41,9 +40,6 @@ function App() {
       </section>
       <section id="pricing-card">
         <PricingCard />
-      </section>
-      <section id="pricing-card2">
-        <PricingCard2 />
       </section>
       <section id="client-testimonials">
         <Clienttestimals />

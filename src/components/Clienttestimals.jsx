@@ -83,7 +83,7 @@ const Testimonials = () => {
                 <Slider {...settings}>
                     {TestimonialData.map((data) => (
                         <div key={data.id} className="my-6 flex justify-center">
-                            <div className="flex flex-col items-center gap-4 shadow-lg py-8 px-6 mx-4 rounded-xl bg-blue-100 relative text-center">
+                            <div className="flex flex-col items-center gap-4 shadow-lg py-8 px-6 mx-4 rounded-xl bg-second relative text-center">
                                 <div className="mb-4">
                                     <img src={data.img} alt={data.name} className="rounded-full w-20 h-20 mx-auto" />
                                 </div>

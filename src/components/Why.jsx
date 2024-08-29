@@ -1,6 +1,6 @@
 import React from 'react';
 import why from '/why.png';
-import finalbg from '/finalbg.png';
+import './Why.css';  
 
 const skillData = [
     {
@@ -23,18 +23,12 @@ const skillData = [
         icon: why,
         description: "Our detailed reports cover various aspects of your business, from market trends and competitor analysis to financial performance and operational efficiency.",
     }
-]
+];
 
 const Why = () => {
     return (
         <div 
-            style={{ 
-                backgroundImage: `url(${finalbg})`,
-                backgroundSize: 'cover', 
-                backgroundPosition: 'center', 
-                backgroundRepeat: 'no-repeat', 
-            }} 
-            className='py-14 sm:min-h-[600px] sm:grid sm:place-items-center w-full'
+            className='py-14 sm:min-h-[600px] sm:grid sm:place-items-center w-full bg-responsive'
         >
             <div className='container'>
                 <div className='pb-12'>

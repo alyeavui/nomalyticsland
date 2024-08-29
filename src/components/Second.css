@@ -1,0 +1,25 @@
+/* styles.css */
+.bg-custom {
+    background-image: url("/bgbg.png"); /* Default for small screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Adjust as needed */
+  }
+  
+  @media (min-width: 768px) {
+    .bg-custom {
+      background-image: url("/bgSec.png"); /* Medium screens */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .bg-custom {
+      background-image: url("/secLg.png"); /* Large screens */
+    }
+  }
+
+  @media (min-width: 1535px) {
+    .bg-custom {
+      background-image: url("/xlbg.png"); /* Large screens */
+    }
+  }

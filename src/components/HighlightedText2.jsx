@@ -2,21 +2,19 @@ import React from 'react';
 
 const HighlightedText2 = () => {
   return (
-    <div className="relative flex justify-center items-center mt-20 mb-32">
+    <div className="relative flex justify-center items-center mt-20 mb-32 md:mx-16">
       
       <img
         src="/analphot.jpg" 
-        className="rounded-[56px] p-1 "
+        className="rounded-[56px] p-1 md:w-[50vw]  lg:w-[45vw]"
       />
-
-      {/* верх блок */}
       <div
-        className="absolute w-[48vw] p-2 rounded-[38px] bg-white top-[-20%] right-[2%]"
+        className="absolute w-[48vw] p-2 rounded-[38px] bg-white top-[-20%] right-[2%] md:w-[25vw] xl:w-[15vw]  lg:top-[-5%] lg:right-[4%]"
         style={{
           boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
         }}
       >
-        <p className="text-black text-[14px] leading-snug font-extrabold ml-3">
+        <p className="text-black text-[14px] leading-snug font-extrabold ml-3 xl:text-lg md:text-md ">
           <span className="block text-start">You have the data, </span>
           <span className="block text-start">but lack the time </span>
           <span className="block text-start">and skills for</span>
@@ -28,15 +26,13 @@ const HighlightedText2 = () => {
           </div>
         </div>
       </div>
-
-       {/* нижн блок */}
       <div
-        className="absolute w-[50vw] p-2 rounded-[28px] bg-white bottom-[-18%] left-[2%]"
+        className="absolute w-[50vw] p-2 rounded-[28px] bg-white bottom-[-18%] left-[2%] xl:w-[15vw] md:w-[25vw] lg:bottom-[-6%] lg:left-[9%]"
         style={{
           boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
         }}
       >
-        <p className="text-black text-[14px] leading-snug font-extrabold ml-3">
+        <p className="text-black text-[14px] leading-snug font-extrabold ml-3 xl:text-lg md:text-md ">
           <span className="block text-start">Facing team issues </span>
           <span className="block text-start">but don't have time </span>
           <span className="block text-start">to resolve them?</span>
@@ -52,6 +48,3 @@ const HighlightedText2 = () => {
 };
 
 export default HighlightedText2;
-
-
-  
